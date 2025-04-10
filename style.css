@@ -24,7 +24,7 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background:radial-gradient(circle, rgb(196, 173, 126),rgb(28, 12, 3));
     padding: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
    
 }
 
@@ -93,7 +93,7 @@ section{
         padding: 20px;
     }
     .flex-item{
-       font-size: 15px;
+       font-size: 16px;
     }
 
     }

@@ -52,6 +52,12 @@ section{
     color: rgb(162, 95, 47);
 }
 
+@media screen and (max-width: 480px){
+    .flex-item{
+        font-size: 16px;
+    }
+}
+
 .container{
     padding: 20px;
     margin: 20px;
