@@ -54,16 +54,22 @@ section{
 
 @media screen and (max-width: 480px){
     .flex-item{
-        font-size: 10px;
+        font-size: 15px;
     }
+}
+
+@media screen and (max-width: 360px) {
+    .flex-item{
+        font-size: 10px;
+     }   
 }
 
 .container{
     padding: 20px;
     margin: 20px;
     flex: 1;
-    
-}
+}    
+
 
 
 footer{
