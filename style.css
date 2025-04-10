@@ -153,16 +153,10 @@ section{
     background-color: rgba(105, 37, 169, 0.089);
     padding: 20px;
     border-radius: 20px;
-    cursor: pointer;
-    
     align-items: center;
 }
 
-.texto-item.expanded {
-    transform: scale(1.2);
-    transition: max-height 0.3s;
-    margin-left: 7%;
-}
+
 
 .container-texto2{
 
@@ -239,13 +233,13 @@ footer{
 
 .box {
     opacity: 0;
-    transform: translateX(30%);
+    transform: translateY(-60);
     transition: opacity 0.9s ease-out, transform 1.3s ease-out;
 }
 
 .box.show {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(-30%);
 }
 
 .box2 {
