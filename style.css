@@ -92,6 +92,9 @@ section{
         width: 400px;
         padding: 20px;
     }
+    .flex-item{
+       font-size: 15px;
+    }
 
     }
   
