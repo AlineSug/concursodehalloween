@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: rgb(57, 18, 93);
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+    }
+    main{
+        padding: 20px;
+        margin: 30px;
+        text-align: center;
+        width: 90%;
+        background-color: rgba(109, 84, 165, 0.282);
+        border-radius: 10px;
+        color: rgb(132, 101, 159);
+        flex: 1;
+    }
+    @media screen and (max-width: 480px){
+      main{
+        margin-left: 2px;
+      }
+    }
+
+    h1{
+        color: white;
+        background-color: rgba(100, 53, 144, 0.715);
+        padding: 20px;
+        border-radius: 20px;
+        
+    }
+
+    section{
+  
+  padding: 0;
+  margin: 0px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    background-color: black;
+    padding-right: 17px;
+    padding-left: 1px;
+    margin-left: 25%;
+}
+
+.flex-item{
+    color:rgba(254, 254, 254, 0.584);
+    padding: 15px;
+    flex:1;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.flex-item:hover{
+    color: rgb(162, 95, 47);
+}
+
+footer{
+    padding: 20px;
+    background-color: rgb(27, 5, 46);
+    color: rgb(199, 170, 244);
+}
+
+
+    </style>
+</head>
+<body>
+    <section class="flex-layout">
+        <div class="flex-container">
+            <img style="width: 85px" src="img/logotm.JPG">
+            <a class="flex-item" href="index.html">Home</a>
+            <a class="flex-item" href="rules.html">Rules</a>
+            <a class="flex-item" href="contact.html">Contact</a>
+            
+
+        </div>
+    </section>
+    <main>
+    <h1>Contato</h1>
+    <h2>Entre em contato:</h2>
+    <h3>Telefone:</h3><p>053-000-000</p>
+    <h3>E-mail:</h3><p>aaaaaa@bbb.com</p>
+
+
+    
+</main>
+</body>
+<footer><p> &copy Todos os direitos reservados</p></footer>
+
+</html>
