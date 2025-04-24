@@ -71,11 +71,12 @@ document.querySelectorAll("nav a").forEach((anchor) => {
 
 const menu = document.querySelectorAll("nav a");
 menu.forEach((options) => {
-  options.addEventListener("click", (event) => {});
-  const links = options.querySelectorAll("a");
-  links.forEach((link) => {
-    link.addEventListener("click", (event) => {
-      console.log(`clicked link: ${link.textContent}`);
+  options.addEventListener("click", (event) => {
+    const links = options.querySelectorAll("a");
+    links.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        console.log(`clicked link: ${link.textContent}`);
+      });
     });
   });
 });
